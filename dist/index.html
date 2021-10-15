@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+    </header>
+    <main>
+        <!-- <section class="locations">
+            <h2 class="locations__title">{{ title }}</h2>
+            <div class="locations-wrap">
+                {% for location in locations %}
+                    <div class="locations__item">
+                        <div class="locations__img">
+                            <img src="" alt="">
+                            <h4 class="locations__name">{{ title }}</h4>
+                            <p class="locations__address">{{ address }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <a href="{{ btn_url }}" class="locations__btn">{{ btn_text }}</a>
+        </section>
+
+        {% schema %}
+        {
+            "name": "Out locations",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "Section settings"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Section title",
+                    "default": "WHEN & WHERE"
+                },
+                {
+                    "type": "header",
+                    "content": "Button settings"
+                },
+                {
+                    "type": "text",
+                    "id": "btn_text",
+                    "label": "Button text",
+                    "default": "Learn More"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_url",
+                    "label": "Button link"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "block",
+                    "name": "location",
+                    "settings": [
+                        {
+                            "type": "image_picker",
+                            "id": "img",
+                            "label": "Location ico"
+                        },
+                        {
+                            "type": "text",
+                            "id": "title",
+                            "label": "Location name"
+                        },
+                        {
+                            "type": "textarea",
+                            "id": "address",
+                            "label": "Location address"
+                        }
+                    ]
+                }
+            ]
+        }
+        {% endschema %} !-->
+
+        <section class="locations">
+            <h2 class="locations__title">WHEN & WHERE</h2>
+            <div class="locations-wrap">
+                <div class="locations__item">
+                    <div class="locations__img">
+                        <img src="images/img.png" alt="">
+                    </div>
+                    <h4 class="locations__name">CHICAGO</h4>
+                    <p class="locations__address">October 16, 2021<br><br> 113 East Oak Street<br><br> Chicago, IL 60611</p>
+                </div>
+                <div class="locations__item">
+                    <div class="locations__img">
+                        <img src="images/img.png" alt="">
+                    </div>
+                    <h4 class="locations__name">NASHVILLE</h4>
+                    <p class="locations__address">October 17, 2021<br><br> 2306 12th Avenue South<br><br> Nashville, TN 37204</p>
+                </div>
+                <div class="locations__item">
+                    <div class="locations__img">
+                        <img src="images/img.png" alt="">
+                    </div>
+                    <h4 class="locations__name">BOSTON</h4>
+                    <p class="locations__address">October 23, 2021<br><br> 179 Newbury Street<br><br> Boston, MA 02116</p>
+                </div>
+                <div class="locations__item">
+                    <div class="locations__img">
+                        <img src="images/img.png" alt="">
+                    </div>
+                    <h4 class="locations__name">NEW YORK CITY </h4>
+                    <p class="locations__address">October 29, 2021<br><br> 75 Crosby Street<br><br> New York, NY 10012</p>
+                </div>
+                <div class="locations__item">
+                    <div class="locations__img">
+                        <img src="images/img.png" alt="">
+                    </div>
+                    <h4 class="locations__name">WASHINGTON DC </h4>
+                    <p class="locations__address">November 6, 2021<br><br> 3235 M Street<br><br> NW Washington, DC 20007</p>
+                </div>
+            </div>
+            <a href="#" class="locations__btn">Learn More</a>
+        </section>
+    </main>
+    
+    <footer class="footer">
+    </footer>
+
+</body>
+</html>
